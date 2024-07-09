@@ -1,0 +1,16 @@
+.Content{
+    margin: 10rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #fff;
+    height: 30rem;
+    width: 30rem;
+    color:#fff;
+}
