@@ -2,7 +2,7 @@ import "./Hero.css"
 import git from '../assets/github.png'
 import phone from '../assets/what.png'
 import email from '../assets/gmail.png'
-
+import discord from '../assets/discord_icon.png'
 function Hero(){
     return (
     <div className="titulo">
@@ -11,6 +11,8 @@ function Hero(){
             <div><img src={git}></img></div>
             <div><img src={phone}></img></div>
             <div><img src={email}></img></div>
+            <div><img src={discord}></img></div>
+
         </div>
     </div>
     );

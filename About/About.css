@@ -7,10 +7,90 @@
 
 .about{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid #fff;
     height: 30rem;
     width: 30rem;
     color:#fff;
+    overflow: hidden;
+}
+.about h1{
+    margin-bottom:0.5rem;
+}
+.nico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0; 
+}
+.nico img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.texto {
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.texto h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.scroller {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    overflow: hidden; 
+    position: relative;
+  
+}
+button {
+    margin-bottom: 10px;
+    position: relative;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: 4s ease-in;
+    z-index: 1;
+}
+button::before,
+button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+
+}
+.boton{
+    background:#9204bd;
+    box-shadow: 0 0 5px #9204bd, 0 0 25px #9204bd, 0 0 50px #9204bd, 0 0 200px #9204bd
+}
+
+.scroller__inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    animation: scroll 60s linear infinite; 
+}
+
+.img-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.img-list li {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
