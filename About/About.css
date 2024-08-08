@@ -18,6 +18,7 @@
 }
 .about h1{
     margin-bottom:0.5rem;
+    -webkit-text-stroke: 1px rgb(94, 2, 102);
 }
 .nico {
     display: flex;
@@ -35,10 +36,13 @@
     text-align: center;
     margin: 1rem 0;
     line-height: 1.5;
+    
+
 }
 .texto h3 {
     font-size: 1rem;
     font-weight: normal;
+   
 }
 .scroller {
     display: flex;
@@ -92,5 +96,33 @@ button::after{
     }
     100% {
         transform: translateX(-50%);
+    }
+}
+@media (max-width: 768px) {
+    .Content {
+        margin: 1rem;
+    }
+
+    .about {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .about h1 {
+        font-size: 1.2rem;
+    }
+
+    .texto h3 {
+        font-size: 0.9rem;
+    }
+
+    .scroller {
+        height: 10%;
+    }
+
+    .boton {
+        padding: 0.5rem;
+        font-size: 0.9rem;
     }
 }

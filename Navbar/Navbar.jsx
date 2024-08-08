@@ -1,12 +1,26 @@
 import './Navbar.css'
 import yo from '../assets/yop.png'
 import { NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
 
 const Navbar = () => {
     const[menuOpen, setMenuOpen]=useState(false)
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
 
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 480);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
         <nav className='navbar'>
@@ -24,7 +38,8 @@ const Navbar = () => {
              
          </div>
         
-          <ul className={menuOpen ? "open" : ""}>
+         {(!isMobile || menuOpen  )&&(
+           <ul className={menuOpen ? "open" : ""}>
             <li>
                 <NavLink>Sobre Mi</NavLink>
             </li>
@@ -40,7 +55,7 @@ const Navbar = () => {
             <li>
                 <NavLink>Contacto</NavLink>
             </li>
-          </ul>
+          </ul>)}
         </nav>
     );
 }

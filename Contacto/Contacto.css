@@ -1,0 +1,17 @@
+.ContactoConteiner{
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom,#504f50c9,#0000008f,#504f50c9); 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.ContactoConteiner h1{
+    -webkit-text-stroke: 1px rgb(94, 2, 102);
+    color: rgba(250, 235, 215, 0.678);
+    position:absolute;
+    
+}
