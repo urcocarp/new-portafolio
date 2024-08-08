@@ -48,12 +48,12 @@ function Hero(){
          <h1 ref={h1Ref}className="letter-change-text"
          data-text-value="Nicolas Rodriguez | Front end developer">Nicolas Rodriguez | Front end developer</h1> 
          <div className="iconos">
-            <div><img src={git}></img></div>
-            <div><img src={phone}></img></div>
-            <div><img src={email}></img></div>
-            <div><img src={discord}></img></div>
-
+            <div><a href="https://github.com/urcocarp" target="_blank" rel="noopener noreferrer"><img src={git}></img></a></div>
+            <div><a href="https://wa.link/c53i86" target="_blank" rel="noopener noreferrer"><img src={phone}></img></a></div>
+            <div><a href="mailto:urcocarp1986.nr@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email}></img></a></div>
+            <div><a href="https://discord.com/urcocarp" target="_blank" rel="noopener noreferrer"><img src={discord}></img></a></div>
         </div>
+       
     </div>
     );
 }
