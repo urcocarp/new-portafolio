@@ -1,0 +1,14 @@
+.FooterContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(119, 121, 121);
+    background: linear-gradient(to bottom,#504f50c9,#0000008f); 
+    
+   
+}
+.FooterContent h3{
+    filter: drop-shadow(1px 1px 20px rgb(97, 93, 97));
+}

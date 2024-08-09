@@ -3,7 +3,7 @@
     background: linear-gradient(to bottom,#504f50c9,#0000008f,#504f50c9); 
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     
@@ -15,3 +15,59 @@
     position:absolute;
     
 }
+
+.Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Icon div img{
+   filter: drop-shadow(2px 2px 20px  rgb(227, 213, 230));
+    align-items: center;
+    height: 80px;
+    margin: 30px;
+    padding: 15px;
+    -webkit-text-stroke: 1px rgb(94, 2, 102);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.5s; 
+}
+.Icon div img:hover {
+    transform: scale(1.2); 
+}
+@media (min-width: 1024px) {
+    .ContactoConteiner {
+        height: 80vh;
+    }
+
+    .Icon div img {
+        height: 80px;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .ContactoConteiner h1 {
+        font-size: 40px;
+        top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .ContactoConteiner {
+        height: auto;
+        padding: 20px;
+    }
+
+    .Icon div img {
+        height: 50px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .ContactoConteiner h1 {
+        font-size: 24px;
+        top: 10px;
+    }
+}
+
+
+
