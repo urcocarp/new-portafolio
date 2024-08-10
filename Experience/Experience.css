@@ -11,9 +11,11 @@
     background: linear-gradient(to bottom,#5a535aa9,#0000008f,#504f50c9); 
 }
 .experienceTitle {
-    font-size: 2rem;
+    margin: 30px;
+    padding: 200px;
+    font-size:2rem;
     position: absolute;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
     -webkit-text-stroke: 1px rgb(94, 2, 102);
     color: rgba(250, 235, 215, 0.678);
    
@@ -25,6 +27,7 @@
     margin: 0 10px; 
 }
 .experienceContainer {
+    margin-top: 80px;
     position: relative;
     width: 80%;
     
