@@ -47,7 +47,7 @@ const Experience = () => {
          <h2 className="experienceTitle">
          <img src={dev}></img>
          <img src={avatar}></img>
-         Work Eperience
+         Work Experience
          <img src={npm}></img>
          <img src={cp}></img>
          </h2>

@@ -6,6 +6,7 @@ import email from '../assets/gmail.png'
 import discord from '../assets/discord_icon.png'
 
 const letters= "012ab░ABFRgjkLE▆▓012ab░ABFRgjkLE▆▓"
+const texto = "{Cr3aTive}"
 
 
 function changeTextLetter(element) {
@@ -53,6 +54,7 @@ function Hero(){
             <div><a href="mailto:urcocarp1986.nr@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email}></img></a></div>
             <div><a href="https://discord.com/urcocarp" target="_blank" rel="noopener noreferrer"><img src={discord}></img></a></div>
         </div>
+    
        
     </div>
     );

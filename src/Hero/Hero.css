@@ -39,6 +39,7 @@
     max-width: 100%;
     height: auto;
 }
+
 @keyframes flash {
     0% { background-color: #fff; }
     50% { background-color: #C0C0C0; }
