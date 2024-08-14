@@ -19,8 +19,21 @@ import nico2 from '../assets/nico2.jpeg'
 
 
 const About = () => {
+  const handleDownloadClick=()=>{
+
+    const link= document.createElement('a')
+    link.href= '/public/NicolasRodriguez.pdf';
+    link.download='NicolasRodriguez.pdf';
+    // document.body.appendChild(link);
+    link.click()
+    // document.body.removeChild(link);
+  };
+
+
+
+
     return (
-      <div className='Content'>
+      <div className='Content' id='About'>
 
         <div className="about">
             <h1>¡Hola soy Nicolas!</h1>
@@ -33,7 +46,7 @@ const About = () => {
         </h3>
         </div>
        <div>
-       <button className='boton'>Descarga Cv</button>
+       <button className='boton' onClick={handleDownloadClick}>Descarga Cv</button>
        </div>
        <div className='scroller'>
        <ul className='img-list scroller__inner'>
