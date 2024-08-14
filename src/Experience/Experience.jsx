@@ -15,6 +15,7 @@ import cp from "../assets/dev_icon.png"
 const Experience = () => {
     const sliderRef = useRef();
 
+    
     const settings = {
         dots: false,
         infinite: true,
@@ -42,7 +43,7 @@ const Experience = () => {
     };
 
     return (
-        <section className="experienceContent">
+        <section className="experienceContent" id="Experience">
          <h2 className="experienceTitle">
          <img src={dev}></img>
          <img src={avatar}></img>

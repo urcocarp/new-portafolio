@@ -1,5 +1,5 @@
 .Content{
-    margin: 10rem;
+    margin: 20rem;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -60,6 +60,7 @@ button {
     padding: 0.5rem 1rem;
     transition: 4s ease-in;
     z-index: 1;
+    cursor: pointer;
 }
 button::before,
 button::after{

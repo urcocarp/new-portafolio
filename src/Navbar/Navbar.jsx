@@ -1,6 +1,5 @@
 import './Navbar.css'
 import yo from '../assets/yop.png'
-import { NavLink } from 'react-router-dom'
 import { useState,useEffect } from 'react'
 
 
@@ -41,19 +40,19 @@ const Navbar = () => {
          {(!isMobile || menuOpen  )&&(
            <ul className={menuOpen ? "open" : ""}>
             <li>
-                <NavLink>Sobre Mi</NavLink>
+               <a href='#About'>Sobre Mi</a>
             </li>
 
             <li>
-                <NavLink>Experiencia</NavLink>
+                <a href='#'>Experiencia</a>
             </li>
 
             <li>
-                <NavLink>Portafolio</NavLink>
+                <a>Portafolio</a>
             </li>
 
             <li>
-                <NavLink>Contacto</NavLink>
+                <a href="#Contac">Contacto</a>
             </li>
           </ul>)}
         </nav>
