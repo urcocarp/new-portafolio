@@ -44,8 +44,9 @@ const Navbar = () => {
             </li>
 
             <li>
-                <a href='#'>Experiencia</a>
+                <a href='#Experience'>Experiencia</a>
             </li>
+
 
             <li>
                 <a>Portafolio</a>
