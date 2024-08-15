@@ -23,7 +23,7 @@ const About = () => {
 
     const link= document.createElement('a')
     link.href= '/public/Nico.pdf';
-    link.download='NicolasRodriguez.pdf';
+    link.download='Nico.pdf';
     // document.body.appendChild(link);
     link.click()
     // document.body.removeChild(link);
