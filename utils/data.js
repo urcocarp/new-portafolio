@@ -3,6 +3,7 @@ import eco from "../src/assets/ecomarket.png"
 import dash from "../src/assets/dash.jpeg"
 import gym from "../src/assets/gym.png"
 import country from "../src/assets/country.png"
+import medea from "../src/assets/medea.png"
 
 
 
@@ -10,6 +11,22 @@ import country from "../src/assets/country.png"
 
 
 export const WORK_EXPERIENCE=[
+    {
+        title: "Desarrollador front end developer",
+        image: medea,
+        link: "https://medea-ruby.vercel.app/",
+        date: "Sep 2024- dic 2024",
+        desempeño:[
+            "Proyecto medea",
+            "Proyecto realizado volcado a traves de el gran diseño del equipo, renovacion de la pagina del ministerio M.E.D.E.A ",
+            "poniendo en muestra y todas sus disiplinas y medios de cominicacion para sus predicaciones a sus seguidores",
+            "Usando tecnología React.js para el desarrollo de interfaz de usuario.",
+            "Metodologias Scrum, Agile",
+        ],
+
+    
+    
+},
     {
         title: "Desarrollador full stack Developer",
         image: eco,
