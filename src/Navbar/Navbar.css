@@ -40,6 +40,7 @@
 }
 .navbar ul li a:hover{
     background-color: rgb(86, 82, 88);
+    border-radius: 10px;
 }
 .menu{
     display:none;
